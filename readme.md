@@ -5,18 +5,18 @@ project is developed by [jkrsoftware.de](https://www.jkrsoftware.de).
 
 ---
 
-> **not useable yet.**<br />
-> The Lock- and the LockRequest-Persistor for the DynamoDB-Implementation are not finished yet.<br />
+> **You look on an early Stage of Development.**<br />
+> The most Functionalities and the Tests of the Library are not finished/not written yet.<br />
 > <br />
-> Until then, the Library won't be released to Maven Central.
+> Therefore, I don't release the Library to **Maven Central**, until then.
 
 ---
 
-<!--[![latest published version](https://badgen.net/maven/v/maven-central/one.jkr.de.jkrsoftware.entity.locking.libraries/DynamoDB-Locking-Library-SpringBoot-Starter)](https://s01.oss.sonatype.org/content/repositories/public/one/jkr/de/jkrsoftware/entity/locking/libraries/DynamoDB-Locking-Library-SpringBoot-Starter/)-->
-[![latest published version](https://badgen.net/badge/maven/not%20published%20yet./red)](https://s01.oss.sonatype.org/content/repositories/public/one/jkr/de/jkrsoftware/entity/locking/libraries/DynamoDB-Locking-Library-SpringBoot-Starter/)
-[![last commit on main-branch](https://badgen.net/github/last-commit/jkrsoftware-de/DynamoDB-Locking-Library-SpringBoot-Starter/main)](https://github.com/jkrsoftware-de/DynamoDB-Locking-Library-SpringBoot-Starter/commit/main)
-[![current watchers](https://badgen.net/github/watchers/jkrsoftware-de/DynamoDB-Locking-Library-SpringBoot-Starter)](https://github.com/jkrsoftware-de/DynamoDB-Locking-Library-SpringBoot-Starter/watchers)
-[![given stars](https://badgen.net/github/stars/jkrsoftware-de/DynamoDB-Locking-Library-SpringBoot-Starter)](https://github.com/jkrsoftware-de/DynamoDB-Locking-Library-SpringBoot-Starter/stargazers)
+<!--[![latest published version](https://badgen.net/maven/v/maven-central/one.jkr.de.jkrsoftware.entity.locking.libraries/DynamoDB-Locking-Library)](https://s01.oss.sonatype.org/content/repositories/public/one/jkr/de/jkrsoftware/entity/locking/libraries/DynamoDB-Locking-Library/)-->
+[![latest published version](https://badgen.net/badge/maven/not%20published%20yet./red)](https://s01.oss.sonatype.org/content/repositories/public/one/jkr/de/jkrsoftware/entity/locking/libraries/DynamoDB-Locking-Library/)
+[![last commit on main-branch](https://badgen.net/github/last-commit/jkrsoftware-de/DynamoDB-Locking-Library/main)](https://github.com/jkrsoftware-de/DynamoDB-Locking-Library/commit/main)
+[![current watchers](https://badgen.net/github/watchers/jkrsoftware-de/DynamoDB-Locking-Library)](https://github.com/jkrsoftware-de/DynamoDB-Locking-Library/watchers)
+[![given stars](https://badgen.net/github/stars/jkrsoftware-de/DynamoDB-Locking-Library)](https://github.com/jkrsoftware-de/DynamoDB-Locking-Library/stargazers)
 
 ---
 
