@@ -1,4 +1,4 @@
-package one.jkr.de.jkrsoftware.entity.locking.libraries.dynamoDb.locking.library.locking.system.application.service.ports.in.unlock;
+package one.jkr.de.jkrsoftware.entity.locking.libraries.dynamoDb.locking.library.locking.system.application.ports.in.unlock;
 
 import one.jkr.de.jkrsoftware.entity.locking.libraries.generic.locking.library.locking.system.application.port.in.unlock.UnlockUseCase;
 

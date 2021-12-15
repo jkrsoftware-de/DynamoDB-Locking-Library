@@ -10,7 +10,7 @@ public class DynamoDBLockingSystemAdapter extends LockingSystemAdapter {
 
     public DynamoDBLockingSystemAdapter(@NonNull Clock clock, long pollingRateOnLockRequestQueue) {
         super(
-                new DynamoDBLockingService(clock, pollingRateOnLockRequestQueue)
+                new DynamoDBLockingService(pollingRateOnLockRequestQueue)
         );
     }
 

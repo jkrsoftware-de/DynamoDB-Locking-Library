@@ -3,7 +3,7 @@ package one.jkr.de.jkrsoftware.entity.locking.libraries.dynamoDb.locking.library
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import one.jkr.de.jkrsoftware.entity.locking.libraries.dynamoDb.locking.library.locking.system.application.service.ports.out.LockPortForDynamoDB;
+import one.jkr.de.jkrsoftware.entity.locking.libraries.dynamoDb.locking.library.locking.system.application.ports.out.LockPortForDynamoDB;
 import one.jkr.de.jkrsoftware.entity.locking.libraries.generic.locking.library.locking.system.domain.lock.LockIdentifier;
 import one.jkr.de.jkrsoftware.entity.locking.libraries.generic.locking.library.locking.system.domain.lock.entity.lock.EntityLock;
 import one.jkr.de.jkrsoftware.entity.locking.libraries.generic.locking.library.locking.system.domain.lock.entity.lock.EntityLockId;
@@ -27,6 +27,10 @@ public class DynamoDBLockPersistor implements LockPortForDynamoDB {
 
     @NonNull
     private final Clock clock;
+
+    public DynamoDBLockPersistor() {
+        this.clock = Clock.systemUTC();
+    }
 
     @Override
     public Optional<EntityLock> lock(@NonNull LockRequest lockRequest) {
