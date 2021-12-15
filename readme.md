@@ -28,6 +28,13 @@ If you need any help or just want to talk to me, have a look here: [contact-info
 
 ## 🔧 How to use this Library.
 
+**Notice**:<br />
+The Library uses non-eventual-consistent (also known as: strong) Read-Requests, which will cost more, than the normal eventual-consistent
+Read-Requests.
+
+Further Informations you can find
+there: [AWS • Read Consistency](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.ReadConsistency.html).
+
 ---
 
 ### ➜ Import the Library via your favourite Dependency-Management-Tool.
